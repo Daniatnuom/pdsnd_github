@@ -4,7 +4,7 @@ Jan
 ### Project Title : "Bike share analysis"
 Replace the Project Title
 
-### Description
+### Description : Analyze bike share data in 3 major ciites, chicago, new york and washington.
 Describe what your project is about and what it does
 
 ### Files used
