@@ -14,5 +14,5 @@ Describe what your project is about and what it does
 Include the files used : bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+My remote repo on github forked from udacity/pdsnd_github [Link to URL!!] (https://github.com/Daniatnuom/pdsnd_github)
