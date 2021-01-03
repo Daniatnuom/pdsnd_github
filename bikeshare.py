@@ -165,25 +165,25 @@ def user_stats(df):
 # Added new function for showing consective 5 rows data by asking user 
 
 def display_data(df):
-    view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n').lower()
+    view_data = input('\nWould you like to view 5 rows of individual trip data? Hit "Y" or "N"\n').lower()
     start_loc = 0
     
-    if view_data == 'yes':
+    if view_data == 'y':
 
         while True:
             print(df.iloc[start_loc:start_loc+5])
-            view_display = input("Do you wish to continue?: Enter 'yes' or 'no' :").lower()
+            view_display = input("Do you wish to continue?: Hit 'Y' or 'N' :").lower()
 
-            if view_display != 'yes':
+            if view_display != 'y':
                 break
             else:
                 start_loc += 5
 
-    elif view_data == 'no':
+    elif view_data == 'n':
         print("We don't display data")
 
     else:
-        print("You entered incorrect input, only 'yes' or 'no' is allowed")
+        print("You entered incorrect input, only 'Y' or 'N' is allowed")
 
 
 def main():
